@@ -1,0 +1,232 @@
+{
+	"info": {
+		"_postman_id": "060bdd76-8681-466b-bd4b-f1cf8abc40d5",
+		"name": "seven",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25987869"
+	},
+	"item": [
+		{
+			"name": "getUsers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJ1aWxkIiwiZXhwIjoxNzUxODgzNTI2fQ.-aOunukxwnXTWprbqGce0ulRHdK_8TcL81s1TOoT1r4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"orderNo\": \"1236937\",\n    \"baoQueue\": \"101\",\n    \"branchCode\": \"0101\",\n    \"branchName\": \"สาขาที่00123 ไทรโยค\",\n    \"type\": \"SALE\",\n    \"priceBaseTotal\": 1308.0,\n    \"discount\": 11,\n    \"priceDiscount\": 1308.0,\n    \"paymentInput\": 1308.0,\n    \"pointGet\": 52,\n    \"productTotal\": 2,\n    \"itemTotal\": 2,\n    \"bahtToPoint\": 25.0,\n    \"createdAt\": \"2025-11-30T00:00:00.000+0700\",\n    \"customer\": {\n        \"code\": \"V0641966\",\n        \"member_id\": 5948790,\n        \"name\": \"ภัทธิยะ\",\n        \"is_birthday\": false,\n        \"point\": 0,\n        \"expire_point\": 0,\n        \"expire_date\": \"2024-12-31T00:00:00.000+0700\",\n        \"created_at\": \"2023-11-20T11:59:24.000+0700\",\n        \"last_transaction_time\": \"2025-07-02T08:33:17.000+0700\",\n        //\"last_transaction_time\":\"\",\n        \"is_active\": true,\n        \"status\": \"active\",\n        \"horeca\": false,\n        \"is_created_day\": true,\n        \"is_flag6\": false,\n        \"is_offline\": false,\n        \"needVerifyPhone\": false,\n        \"member_no\": \"M0000300375\",\n        \"registeredAt\": \"1700456364\",\n        \"current_point_date\": \"2025-07-02T08:33:17.000+0700\",\n        //\"current_point_date\":\"\",\n        \"MemberShipsPoints\": [\n            {\n                \"points_ref_key\": \"cjpoint\"\n            },\n            {\n                \"points_ref_key\": \"rainbowpoint\"\n            },\n            {\n                \"points_ref_key\": \"kidpoint\"\n            }\n        ]\n    },\n    \"sellingItem\": [\n        {\n            \"sku\": \"000000000070000108\",\n            \"barcode\": \"18851722907615\",\n            \"pricePerUnit\": 654.0,\n            \"priceBaseTotal\": 1308.0,\n            \"customerBuyAmount\": 1,\n            \"priceWithDiscount\": 1308.0,\n            \"totalDiscount\": 3.0,\n            \"skuCutoffAmount\": 6,\n            \"skuCutoffTotalAmount\": 12,\n            \"discountPromotion\": 3.0,\n            \"discountBillPromotion\": 0.0,\n            \"discountCoupon\": 0.0,\n            \"discountDealPromotion\": 0.0,\n            \"discountLinePromotion\": 0.0,\n            \"discountDirect\": 0.0,\n            \"bomItems\": [\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        },\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A12\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                },\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A12\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                }\n            ],\n            \"promotionLine\": [\n                {\n                    \"promotionId\": \"1\",\n                    \"promotionType\": \"Test\",\n                    \"totalDiscount\": 0,\n                    \"count\": 0,\n                    \"nameTH\": \"\"\n                    // \"createAt\":\"2024-03-27T00:00:00.000+0700\"\n                }\n            ]\n        },\n        {\n            \"sku\": \"000000000070000108\",\n            \"barcode\": \"18851722907615\",\n            \"pricePerUnit\": 654.0,\n            \"priceBaseTotal\": 1308.0,\n            \"customerBuyAmount\": 1,\n            \"priceWithDiscount\": 1308.0,\n            \"totalDiscount\": 3.0,\n            \"skuCutoffAmount\": 6,\n            \"skuCutoffTotalAmount\": 12,\n            \"discountPromotion\": 3.0,\n            \"discountBillPromotion\": 0.0,\n            \"discountCoupon\": 0.0,\n            \"discountDealPromotion\": 0.0,\n            \"discountLinePromotion\": 0.0,\n            \"discountDirect\": 0.0,\n            \"bomItems\": [\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        },\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A12\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                },\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A12\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                }\n            ],\n            \"promotionLine\": [\n                {\n                    \"promotionId\": \"1\",\n                    \"promotionType\": \"Test\",\n                    \"totalDiscount\": 0,\n                    \"count\": 0,\n                    \"nameTH\": \"\"\n                    // \"createAt\":\"2024-03-27T00:00:00.000+0700\"\n                }\n            ]\n        },\n        {\n            \"sku\": \"000000000070000108\",\n            \"barcode\": \"18851722907616\",\n            \"pricePerUnit\": 654.0,\n            \"priceBaseTotal\": 1308.0,\n            \"customerBuyAmount\": 1,\n            \"priceWithDiscount\": 1308.0,\n            \"totalDiscount\": 5.0,\n            \"skuCutoffAmount\": 6,\n            \"skuCutoffTotalAmount\": 12,\n            \"discountPromotion\": 7.0,\n            \"discountBillPromotion\": 0.0,\n            \"discountCoupon\": 0.0,\n            \"discountDealPromotion\": 0.0,\n            \"discountLinePromotion\": 0.0,\n            \"discountDirect\": 0.0,\n            \"bomItems\": [\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        },\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A123\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                },\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A123\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                }\n            ],\n            \"promotionLine\": [\n                {\n                    \"promotionId\": \"1\",\n                    \"promotionType\": \"Test\",\n                    \"totalDiscount\": 0,\n                    \"count\": 0,\n                    \"nameTH\": \"\"\n                    // \"createAt\":\"2024-03-27T00:00:00.000+0700\"\n                }\n            ]\n        }\n    ],\n    \"tenders\": [\n        {\n            \"paymentType\": \"CASH\",\n            \"tenderType\": \"1\",\n            \"tender\": \"1\",\n            \"tenderReferenceCode\": \"56789\",\n            \"tenderAccountName\": \"Byd\",\n            \"tenderAmount\": 1308.0,\n            \"tenderReferenceNo\": \"5678\",\n            \"createdAt\": \"2025-12-31T00:00:00.000+0700\"\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:1323/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1323",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUser",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJ1aWxkIiwiZXhwIjoxNzUxODgzNTI2fQ.-aOunukxwnXTWprbqGce0ulRHdK_8TcL81s1TOoT1r4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"orderNo\": \"1236937\",\n    \"baoQueue\": \"101\",\n    \"branchCode\": \"0101\",\n    \"branchName\": \"สาขาที่00123 ไทรโยค\",\n    \"type\": \"SALE\",\n    \"priceBaseTotal\": 1308.0,\n    \"discount\": 11,\n    \"priceDiscount\": 1308.0,\n    \"paymentInput\": 1308.0,\n    \"pointGet\": 52,\n    \"productTotal\": 2,\n    \"itemTotal\": 2,\n    \"bahtToPoint\": 25.0,\n    \"createdAt\": \"2025-11-30T00:00:00.000+0700\",\n    \"customer\": {\n        \"code\": \"V0641966\",\n        \"member_id\": 5948790,\n        \"name\": \"ภัทธิยะ\",\n        \"is_birthday\": false,\n        \"point\": 0,\n        \"expire_point\": 0,\n        \"expire_date\": \"2024-12-31T00:00:00.000+0700\",\n        \"created_at\": \"2023-11-20T11:59:24.000+0700\",\n        \"last_transaction_time\": \"2025-07-02T08:33:17.000+0700\",\n        //\"last_transaction_time\":\"\",\n        \"is_active\": true,\n        \"status\": \"active\",\n        \"horeca\": false,\n        \"is_created_day\": true,\n        \"is_flag6\": false,\n        \"is_offline\": false,\n        \"needVerifyPhone\": false,\n        \"member_no\": \"M0000300375\",\n        \"registeredAt\": \"1700456364\",\n        \"current_point_date\": \"2025-07-02T08:33:17.000+0700\",\n        //\"current_point_date\":\"\",\n        \"MemberShipsPoints\": [\n            {\n                \"points_ref_key\": \"cjpoint\"\n            },\n            {\n                \"points_ref_key\": \"rainbowpoint\"\n            },\n            {\n                \"points_ref_key\": \"kidpoint\"\n            }\n        ]\n    },\n    \"sellingItem\": [\n        {\n            \"sku\": \"000000000070000108\",\n            \"barcode\": \"18851722907615\",\n            \"pricePerUnit\": 654.0,\n            \"priceBaseTotal\": 1308.0,\n            \"customerBuyAmount\": 1,\n            \"priceWithDiscount\": 1308.0,\n            \"totalDiscount\": 3.0,\n            \"skuCutoffAmount\": 6,\n            \"skuCutoffTotalAmount\": 12,\n            \"discountPromotion\": 3.0,\n            \"discountBillPromotion\": 0.0,\n            \"discountCoupon\": 0.0,\n            \"discountDealPromotion\": 0.0,\n            \"discountLinePromotion\": 0.0,\n            \"discountDirect\": 0.0,\n            \"bomItems\": [\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        },\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A12\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                },\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A12\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                }\n            ],\n            \"promotionLine\": [\n                {\n                    \"promotionId\": \"1\",\n                    \"promotionType\": \"Test\",\n                    \"totalDiscount\": 0,\n                    \"count\": 0,\n                    \"nameTH\": \"\"\n                    // \"createAt\":\"2024-03-27T00:00:00.000+0700\"\n                }\n            ]\n        },\n        {\n            \"sku\": \"000000000070000108\",\n            \"barcode\": \"18851722907615\",\n            \"pricePerUnit\": 654.0,\n            \"priceBaseTotal\": 1308.0,\n            \"customerBuyAmount\": 1,\n            \"priceWithDiscount\": 1308.0,\n            \"totalDiscount\": 3.0,\n            \"skuCutoffAmount\": 6,\n            \"skuCutoffTotalAmount\": 12,\n            \"discountPromotion\": 3.0,\n            \"discountBillPromotion\": 0.0,\n            \"discountCoupon\": 0.0,\n            \"discountDealPromotion\": 0.0,\n            \"discountLinePromotion\": 0.0,\n            \"discountDirect\": 0.0,\n            \"bomItems\": [\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        },\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A12\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                },\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A12\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                }\n            ],\n            \"promotionLine\": [\n                {\n                    \"promotionId\": \"1\",\n                    \"promotionType\": \"Test\",\n                    \"totalDiscount\": 0,\n                    \"count\": 0,\n                    \"nameTH\": \"\"\n                    // \"createAt\":\"2024-03-27T00:00:00.000+0700\"\n                }\n            ]\n        },\n        {\n            \"sku\": \"000000000070000108\",\n            \"barcode\": \"18851722907616\",\n            \"pricePerUnit\": 654.0,\n            \"priceBaseTotal\": 1308.0,\n            \"customerBuyAmount\": 1,\n            \"priceWithDiscount\": 1308.0,\n            \"totalDiscount\": 5.0,\n            \"skuCutoffAmount\": 6,\n            \"skuCutoffTotalAmount\": 12,\n            \"discountPromotion\": 7.0,\n            \"discountBillPromotion\": 0.0,\n            \"discountCoupon\": 0.0,\n            \"discountDealPromotion\": 0.0,\n            \"discountLinePromotion\": 0.0,\n            \"discountDirect\": 0.0,\n            \"bomItems\": [\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        },\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A123\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                },\n                {\n                    \"qty\": 2,\n                    \"addOnItems\": [\n                        {\n                            \"sku\": \"000000000030001604\",\n                            \"barcode\": \"18851722907615\",\n                            \"pricePerUnit\": 3,\n                            \"priceBaseTotal\": 30,\n                            \"customerBuyAmount\": 40,\n                            \"priceWithDiscount\": 89,\n                            \"totalDiscount\": 677,\n                            \"skuCutoffAmount\": 97,\n                            \"skuCutoffTotalAmount\": 100,\n                            \"discountPromotion\": 79,\n                            \"discountBillPromotion\": 89,\n                            \"discountCoupon\": 88,\n                            \"discountDealPromotion\": 0,\n                            \"discountLinePromotion\": 0\n                        }\n                    ],\n                    \"bom\": {\n                        \"bomCode\": \"A123\",\n                        \"showSweet\": false,\n                        \"sweetCode\": \"SS\",\n                        \"sweetName\": \"SW\",\n                        \"sweetShortName\": \"aa\",\n                        \"showCup\": true,\n                        \"cupCode\": \"009\",\n                        \"cupName\": \"ABC\",\n                        \"cupShortName\": \"qqq\"\n                    }\n                }\n            ],\n            \"promotionLine\": [\n                {\n                    \"promotionId\": \"1\",\n                    \"promotionType\": \"Test\",\n                    \"totalDiscount\": 0,\n                    \"count\": 0,\n                    \"nameTH\": \"\"\n                    // \"createAt\":\"2024-03-27T00:00:00.000+0700\"\n                }\n            ]\n        }\n    ],\n    \"tenders\": [\n        {\n            \"paymentType\": \"CASH\",\n            \"tenderType\": \"1\",\n            \"tender\": \"1\",\n            \"tenderReferenceCode\": \"56789\",\n            \"tenderAccountName\": \"Byd\",\n            \"tenderAmount\": 1308.0,\n            \"tenderReferenceNo\": \"5678\",\n            \"createdAt\": \"2025-12-31T00:00:00.000+0700\"\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:1323/user/builD",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1323",
+					"path": [
+						"user",
+						"builD"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"build\",\n    \"email\":\"build@gmail.com\",\n    \"password\":\"1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1323/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1323",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJ1aWxkIiwiZXhwIjoxNzUxODgzNTI2fQ.-aOunukxwnXTWprbqGce0ulRHdK_8TcL81s1TOoT1r4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"bee\",\n    \"email\":\"build@gmail.com\",\n    \"password\":\"1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1323/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1323",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJ1aWxkIiwiZXhwIjoxNzUxODgzNTI2fQ.-aOunukxwnXTWprbqGce0ulRHdK_8TcL81s1TOoT1r4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"beeeeeee\",\n    \"email\":\"build@gmail.com\",\n    \"password\":\"1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1323/user/6868fd51cbf3981114f486c9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1323",
+					"path": [
+						"user",
+						"6868fd51cbf3981114f486c9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJ1aWxkIiwiZXhwIjoxNzUxODgzNTI2fQ.-aOunukxwnXTWprbqGce0ulRHdK_8TcL81s1TOoT1r4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:1323/user/6868fd51cbf3981114f486c9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1323",
+					"path": [
+						"user",
+						"6868fd51cbf3981114f486c9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\":\"build\",\n    \"password\":\"1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1323/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1323",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
