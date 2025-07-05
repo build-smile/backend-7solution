@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:6.0
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: my_app_db
+    volumes:
+      - mongo_data:/data/db
+      - ./mongo-init:/docker-entrypoint-initdb.d
+
+  app:
+    build: .
+    container_name: go_app
+    ports:
+      - "8080:8080"
+    environment:
+      MONGO_URI: "mongodb://mongo:27017"
+      MONGO_DB: "my_app_db"
+    depends_on:
+      - mongo
+
+volumes:
+  mongo_data:

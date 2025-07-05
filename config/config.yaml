@@ -1,0 +1,12 @@
+app:
+  name: myTemplate
+  port: 1323
+
+jwt:
+  secret-key: "12345"
+
+mongodb:
+  uri: "mongodb://localhost:27017"
+  database: "my_app_db"
+  connectTimeoutMilli: 5000
+  executeTimeoutMilli: 10000
